@@ -19,10 +19,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module encapsulates the access for the parallel port.
-It provides backends for Python running on Windows and Linux.
+This module encapsulates the access for the parallel port. It provides
+backends for Python running on Windows and Linux.
 
-#%description -l pl
+%description -l pl
+Ten modu³ obudowuje dostêp do portu równoleg³ego. Dostarcza backendy
+dla Pythona dzia³aj±cego na Windows i Linuksie.
 
 %prep
 %setup  -q -n pyparallel-%{version}
