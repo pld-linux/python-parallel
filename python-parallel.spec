@@ -2,7 +2,7 @@
 %define	module	parallel
 
 Summary:	Parallel port interface module
-Summary(pl):	Modu≥ interfejsu do portu rÛwnoleg≥ego
+Summary(pl.UTF-8):   Modu≈Ç interfejsu do portu r√≥wnoleg≈Çego
 Name:		python-parallel
 Version:	0.2
 Release:	1
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module encapsulates the access for the parallel port. It provides
 backends for Python running on Windows and Linux.
 
-%description -l pl
-Ten modu≥ obudowuje dostÍp do portu rÛwnoleg≥ego. Dostarcza backendy
-dla Pythona dzia≥aj±cego na Windows i Linuksie.
+%description -l pl.UTF-8
+Ten modu≈Ç obudowuje dostƒôp do portu r√≥wnoleg≈Çego. Dostarcza backendy
+dla Pythona dzia≈ÇajƒÖcego na Windows i Linuksie.
 
 %prep
 %setup  -q -n pyparallel-%{version}
