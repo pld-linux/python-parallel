@@ -2,7 +2,7 @@
 %define	module	parallel
 
 Summary:	Parallel port interface module
-Summary(pl.UTF-8):   Moduł interfejsu do portu równoległego
+Summary(pl.UTF-8):	Moduł interfejsu do portu równoległego
 Name:		python-parallel
 Version:	0.2
 Release:	1
