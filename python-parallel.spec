@@ -12,6 +12,7 @@ Source0:	http://dl.sourceforge.net/pyserial/pyparallel-%{version}.zip
 # Source0-md5:	46b65592f0b2fa7094ca87bf053e93a7
 Patch0:		%{name}-distutils.patch
 URL:		http://pyserial.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel
 BuildRequires:	unzip
