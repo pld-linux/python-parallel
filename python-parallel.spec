@@ -29,7 +29,7 @@ dla Pythona działającego na Windows i Linuksie.
 
 %prep
 %setup  -q -n pyparallel-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %py_build
